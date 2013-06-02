@@ -1,0 +1,19 @@
+//
+// Prefix header for all source files of the 'TVProgram' target in the 'TVProgram' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+    #import "SZUtils.h"
+    #import <CoreData/CoreData.h>
+    #import <iAd/ADBannerView.h>
+
+    #import "SZConfiguration.h"
+    #import "SZAppInfo.h"
+    #import "SZCoreManager.h"
+    #import "ModelHelper.h"
+    #import "UserTool.h"
+    #import "SZBannerManager.h"
+    #import "ServerManager.h"
+#endif

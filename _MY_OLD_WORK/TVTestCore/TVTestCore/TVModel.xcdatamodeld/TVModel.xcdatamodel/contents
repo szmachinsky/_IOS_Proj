@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="878" systemVersion="11E53" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="TVChannel" representedClassName="TVChannel" syncable="YES">
+        <attribute name="bLoaded" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="bSelected" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="idChan" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="updated" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="urlLogo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="urlProgr" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="tvShow" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="TVShow" inverseName="tvChannel" inverseEntity="TVShow" syncable="YES"/>
+    </entity>
+    <entity name="TVShow" syncable="YES">
+        <attribute name="category" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="descr" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="start" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="stop" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="tvChannel" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="TVChannel" inverseName="tvShow" inverseEntity="TVChannel" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="TVChannel" positionX="160" positionY="192" width="128" height="165"/>
+        <element name="TVShow" positionX="160" positionY="192" width="128" height="135"/>
+    </elements>
+</model>

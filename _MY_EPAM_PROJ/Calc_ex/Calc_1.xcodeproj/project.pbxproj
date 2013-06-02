@@ -1,0 +1,316 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8CB40A9F146D42670027D7E5 /* calc-64x64.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CB40A9B146D42670027D7E5 /* calc-64x64.png */; };
+		8CB40AA0146D42670027D7E5 /* Call1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CB40A9C146D42670027D7E5 /* Call1.png */; };
+		8CB40AA1146D42670027D7E5 /* Mail1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CB40A9D146D42670027D7E5 /* Mail1.png */; };
+		8CB40AA2146D42670027D7E5 /* me11_64.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 8CB40A9E146D42670027D7E5 /* me11_64.PNG */; };
+		C30BEEA113E97C550066D1B0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C30BEEA013E97C550066D1B0 /* UIKit.framework */; };
+		C30BEEA313E97C550066D1B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C30BEEA213E97C550066D1B0 /* Foundation.framework */; };
+		C30BEEA513E97C550066D1B0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C30BEEA413E97C550066D1B0 /* CoreGraphics.framework */; };
+		C30BEEAB13E97C560066D1B0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C30BEEA913E97C560066D1B0 /* InfoPlist.strings */; };
+		C30BEEAE13E97C560066D1B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C30BEEAD13E97C560066D1B0 /* main.m */; };
+		C30BEEB113E97C560066D1B0 /* CalcAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C30BEEB013E97C560066D1B0 /* CalcAppDelegate.m */; };
+		C30BEEB413E97C560066D1B0 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = C30BEEB213E97C560066D1B0 /* MainWindow.xib */; };
+		C30BEEB713E97C560066D1B0 /* CalcViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C30BEEB613E97C560066D1B0 /* CalcViewController.m */; };
+		C30BEEBA13E97C560066D1B0 /* Calc_1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C30BEEB813E97C560066D1B0 /* Calc_1ViewController.xib */; };
+		C30BEEC213E985530066D1B0 /* MyCalc.m in Sources */ = {isa = PBXBuildFile; fileRef = C30BEEC113E985530066D1B0 /* MyCalc.m */; };
+		C3B02DCD13F3C54C00F10E25 /* FlipsideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3B02DCA13F3C54A00F10E25 /* FlipsideView.xib */; };
+		C3B02DCE13F3C54C00F10E25 /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B02DCC13F3C54B00F10E25 /* FlipsideViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8CB40A9B146D42670027D7E5 /* calc-64x64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "calc-64x64.png"; sourceTree = "<group>"; };
+		8CB40A9C146D42670027D7E5 /* Call1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Call1.png; sourceTree = "<group>"; };
+		8CB40A9D146D42670027D7E5 /* Mail1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mail1.png; sourceTree = "<group>"; };
+		8CB40A9E146D42670027D7E5 /* me11_64.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = me11_64.PNG; sourceTree = "<group>"; };
+		C30BEE9C13E97C550066D1B0 /* Calc_1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calc_1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C30BEEA013E97C550066D1B0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C30BEEA213E97C550066D1B0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C30BEEA413E97C550066D1B0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C30BEEA813E97C560066D1B0 /* Calc_1-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Calc_1-Info.plist"; sourceTree = "<group>"; };
+		C30BEEAA13E97C560066D1B0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C30BEEAC13E97C560066D1B0 /* Calc_1-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Calc_1-Prefix.pch"; sourceTree = "<group>"; };
+		C30BEEAD13E97C560066D1B0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C30BEEAF13E97C560066D1B0 /* CalcAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalcAppDelegate.h; sourceTree = "<group>"; };
+		C30BEEB013E97C560066D1B0 /* CalcAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalcAppDelegate.m; sourceTree = "<group>"; };
+		C30BEEB313E97C560066D1B0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		C30BEEB513E97C560066D1B0 /* CalcViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalcViewController.h; sourceTree = "<group>"; };
+		C30BEEB613E97C560066D1B0 /* CalcViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalcViewController.m; sourceTree = "<group>"; };
+		C30BEEB913E97C560066D1B0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Calc_1ViewController.xib; sourceTree = "<group>"; };
+		C30BEEC013E985530066D1B0 /* MyCalc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCalc.h; sourceTree = "<group>"; };
+		C30BEEC113E985530066D1B0 /* MyCalc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCalc.m; sourceTree = "<group>"; };
+		C3B02DCA13F3C54A00F10E25 /* FlipsideView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FlipsideView.xib; sourceTree = "<group>"; };
+		C3B02DCB13F3C54A00F10E25 /* FlipsideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlipsideViewController.h; sourceTree = "<group>"; };
+		C3B02DCC13F3C54B00F10E25 /* FlipsideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C30BEE9913E97C550066D1B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C30BEEA113E97C550066D1B0 /* UIKit.framework in Frameworks */,
+				C30BEEA313E97C550066D1B0 /* Foundation.framework in Frameworks */,
+				C30BEEA513E97C550066D1B0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C30BEE9113E97C550066D1B0 = {
+			isa = PBXGroup;
+			children = (
+				C30BEEA613E97C550066D1B0 /* Calc_1 */,
+				C30BEE9F13E97C550066D1B0 /* Frameworks */,
+				C30BEE9D13E97C550066D1B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C30BEE9D13E97C550066D1B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C30BEE9C13E97C550066D1B0 /* Calc_1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C30BEE9F13E97C550066D1B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C30BEEA013E97C550066D1B0 /* UIKit.framework */,
+				C30BEEA213E97C550066D1B0 /* Foundation.framework */,
+				C30BEEA413E97C550066D1B0 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C30BEEA613E97C550066D1B0 /* Calc_1 */ = {
+			isa = PBXGroup;
+			children = (
+				C30BEEAF13E97C560066D1B0 /* CalcAppDelegate.h */,
+				C30BEEB013E97C560066D1B0 /* CalcAppDelegate.m */,
+				C30BEEB213E97C560066D1B0 /* MainWindow.xib */,
+				C30BEEB513E97C560066D1B0 /* CalcViewController.h */,
+				C30BEEB613E97C560066D1B0 /* CalcViewController.m */,
+				C30BEEB813E97C560066D1B0 /* Calc_1ViewController.xib */,
+				C3B02DCB13F3C54A00F10E25 /* FlipsideViewController.h */,
+				C3B02DCC13F3C54B00F10E25 /* FlipsideViewController.m */,
+				C3B02DCA13F3C54A00F10E25 /* FlipsideView.xib */,
+				C30BEEA713E97C560066D1B0 /* Supporting Files */,
+				C30BEEC013E985530066D1B0 /* MyCalc.h */,
+				C30BEEC113E985530066D1B0 /* MyCalc.m */,
+			);
+			path = Calc_1;
+			sourceTree = "<group>";
+		};
+		C30BEEA713E97C560066D1B0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8CB40A9B146D42670027D7E5 /* calc-64x64.png */,
+				8CB40A9C146D42670027D7E5 /* Call1.png */,
+				8CB40A9D146D42670027D7E5 /* Mail1.png */,
+				8CB40A9E146D42670027D7E5 /* me11_64.PNG */,
+				C30BEEA813E97C560066D1B0 /* Calc_1-Info.plist */,
+				C30BEEA913E97C560066D1B0 /* InfoPlist.strings */,
+				C30BEEAC13E97C560066D1B0 /* Calc_1-Prefix.pch */,
+				C30BEEAD13E97C560066D1B0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C30BEE9B13E97C550066D1B0 /* Calc_1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C30BEEBD13E97C560066D1B0 /* Build configuration list for PBXNativeTarget "Calc_1" */;
+			buildPhases = (
+				C30BEE9813E97C550066D1B0 /* Sources */,
+				C30BEE9913E97C550066D1B0 /* Frameworks */,
+				C30BEE9A13E97C550066D1B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Calc_1;
+			productName = Calc_1;
+			productReference = C30BEE9C13E97C550066D1B0 /* Calc_1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C30BEE9313E97C550066D1B0 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C30BEE9613E97C550066D1B0 /* Build configuration list for PBXProject "Calc_1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C30BEE9113E97C550066D1B0;
+			productRefGroup = C30BEE9D13E97C550066D1B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C30BEE9B13E97C550066D1B0 /* Calc_1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C30BEE9A13E97C550066D1B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C30BEEAB13E97C560066D1B0 /* InfoPlist.strings in Resources */,
+				C30BEEB413E97C560066D1B0 /* MainWindow.xib in Resources */,
+				C30BEEBA13E97C560066D1B0 /* Calc_1ViewController.xib in Resources */,
+				C3B02DCD13F3C54C00F10E25 /* FlipsideView.xib in Resources */,
+				8CB40A9F146D42670027D7E5 /* calc-64x64.png in Resources */,
+				8CB40AA0146D42670027D7E5 /* Call1.png in Resources */,
+				8CB40AA1146D42670027D7E5 /* Mail1.png in Resources */,
+				8CB40AA2146D42670027D7E5 /* me11_64.PNG in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C30BEE9813E97C550066D1B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C30BEEAE13E97C560066D1B0 /* main.m in Sources */,
+				C30BEEB113E97C560066D1B0 /* CalcAppDelegate.m in Sources */,
+				C30BEEB713E97C560066D1B0 /* CalcViewController.m in Sources */,
+				C30BEEC213E985530066D1B0 /* MyCalc.m in Sources */,
+				C3B02DCE13F3C54C00F10E25 /* FlipsideViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C30BEEA913E97C560066D1B0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C30BEEAA13E97C560066D1B0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C30BEEB213E97C560066D1B0 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C30BEEB313E97C560066D1B0 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		C30BEEB813E97C560066D1B0 /* Calc_1ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C30BEEB913E97C560066D1B0 /* en */,
+			);
+			name = Calc_1ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C30BEEBB13E97C560066D1B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C30BEEBC13E97C560066D1B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		C30BEEBE13E97C560066D1B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Calc_1/Calc_1-Prefix.pch";
+				INFOPLIST_FILE = "Calc_1/Calc_1-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C30BEEBF13E97C560066D1B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Calc_1/Calc_1-Prefix.pch";
+				INFOPLIST_FILE = "Calc_1/Calc_1-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C30BEE9613E97C550066D1B0 /* Build configuration list for PBXProject "Calc_1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C30BEEBB13E97C560066D1B0 /* Debug */,
+				C30BEEBC13E97C560066D1B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C30BEEBD13E97C560066D1B0 /* Build configuration list for PBXNativeTarget "Calc_1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C30BEEBE13E97C560066D1B0 /* Debug */,
+				C30BEEBF13E97C560066D1B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C30BEE9313E97C550066D1B0 /* Project object */;
+}

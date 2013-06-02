@@ -1,0 +1,364 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A92C3FF160074460030A6D9 /* sliderBase.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A92C3F9160074460030A6D9 /* sliderBase.png */; };
+		0A92C400160074460030A6D9 /* sliderFill.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A92C3FA160074460030A6D9 /* sliderFill.png */; };
+		0A92C401160074460030A6D9 /* sliderHint.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A92C3FB160074460030A6D9 /* sliderHint.png */; };
+		0A92C402160074460030A6D9 /* sliderMark.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A92C3FC160074460030A6D9 /* sliderMark.png */; };
+		0A92C403160074460030A6D9 /* sliderMarkHighlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A92C3FD160074460030A6D9 /* sliderMarkHighlighted.png */; };
+		0A92C404160074460030A6D9 /* sliderTime.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A92C3FE160074460030A6D9 /* sliderTime.png */; };
+		0A92C405160074690030A6D9 /* KHDaySliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A92C3F8160074370030A6D9 /* KHDaySliderView.m */; };
+		0A92C41C16009F460030A6D9 /* KHDaySliderBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A92C41B16009F460030A6D9 /* KHDaySliderBar.m */; };
+		0A92C41F16009FD80030A6D9 /* sliderBack.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A92C41E16009FD80030A6D9 /* sliderBack.png */; };
+		0A933B7015FF15C900DCC930 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A933B6F15FF15C900DCC930 /* UIKit.framework */; };
+		0A933B7215FF15C900DCC930 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A933B7115FF15C900DCC930 /* Foundation.framework */; };
+		0A933B7415FF15CA00DCC930 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A933B7315FF15CA00DCC930 /* CoreGraphics.framework */; };
+		0A933B7A15FF15CA00DCC930 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A933B7815FF15CA00DCC930 /* InfoPlist.strings */; };
+		0A933B7C15FF15CA00DCC930 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A933B7B15FF15CA00DCC930 /* main.m */; };
+		0A933B8015FF15CA00DCC930 /* KHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A933B7F15FF15CA00DCC930 /* KHAppDelegate.m */; };
+		0A933B8315FF15CA00DCC930 /* KHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A933B8215FF15CA00DCC930 /* KHViewController.m */; };
+		0A933B8615FF15CA00DCC930 /* KHViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A933B8415FF15CA00DCC930 /* KHViewController.xib */; };
+		0A956C151603134A00E81CCE /* KHStretchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A956C141603134A00E81CCE /* KHStretchView.m */; };
+		D55D9E6B16CBA1AC0097C952 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D55D9E6A16CBA1AC0097C952 /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A92C3F7160074370030A6D9 /* KHDaySliderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = KHDaySliderView.h; path = KHDaySliderView/KHDaySliderView.h; sourceTree = "<group>"; };
+		0A92C3F8160074370030A6D9 /* KHDaySliderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = KHDaySliderView.m; path = KHDaySliderView/KHDaySliderView.m; sourceTree = "<group>"; };
+		0A92C3F9160074460030A6D9 /* sliderBase.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sliderBase.png; path = KHDaySliderView/sliderBase.png; sourceTree = "<group>"; };
+		0A92C3FA160074460030A6D9 /* sliderFill.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sliderFill.png; path = KHDaySliderView/sliderFill.png; sourceTree = "<group>"; };
+		0A92C3FB160074460030A6D9 /* sliderHint.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sliderHint.png; path = KHDaySliderView/sliderHint.png; sourceTree = "<group>"; };
+		0A92C3FC160074460030A6D9 /* sliderMark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sliderMark.png; path = KHDaySliderView/sliderMark.png; sourceTree = "<group>"; };
+		0A92C3FD160074460030A6D9 /* sliderMarkHighlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sliderMarkHighlighted.png; path = KHDaySliderView/sliderMarkHighlighted.png; sourceTree = "<group>"; };
+		0A92C3FE160074460030A6D9 /* sliderTime.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sliderTime.png; path = KHDaySliderView/sliderTime.png; sourceTree = "<group>"; };
+		0A92C41A16009F460030A6D9 /* KHDaySliderBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KHDaySliderBar.h; path = KHDaySliderBar/KHDaySliderBar.h; sourceTree = "<group>"; };
+		0A92C41B16009F460030A6D9 /* KHDaySliderBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KHDaySliderBar.m; path = KHDaySliderBar/KHDaySliderBar.m; sourceTree = "<group>"; };
+		0A92C41E16009FD80030A6D9 /* sliderBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sliderBack.png; path = KHDaySliderBar/sliderBack.png; sourceTree = "<group>"; };
+		0A933B6B15FF15C900DCC930 /* KHSlider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KHSlider.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A933B6F15FF15C900DCC930 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0A933B7115FF15C900DCC930 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0A933B7315FF15CA00DCC930 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0A933B7715FF15CA00DCC930 /* KHSlider-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KHSlider-Info.plist"; sourceTree = "<group>"; };
+		0A933B7915FF15CA00DCC930 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0A933B7B15FF15CA00DCC930 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0A933B7D15FF15CA00DCC930 /* KHSlider-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KHSlider-Prefix.pch"; sourceTree = "<group>"; };
+		0A933B7E15FF15CA00DCC930 /* KHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KHAppDelegate.h; sourceTree = "<group>"; };
+		0A933B7F15FF15CA00DCC930 /* KHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KHAppDelegate.m; sourceTree = "<group>"; };
+		0A933B8115FF15CA00DCC930 /* KHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KHViewController.h; sourceTree = "<group>"; };
+		0A933B8215FF15CA00DCC930 /* KHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KHViewController.m; sourceTree = "<group>"; };
+		0A933B8515FF15CA00DCC930 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/KHViewController.xib; sourceTree = "<group>"; };
+		0A956C131603134A00E81CCE /* KHStretchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KHStretchView.h; path = KHDaySliderView/KHStretchView.h; sourceTree = "<group>"; };
+		0A956C141603134A00E81CCE /* KHStretchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KHStretchView.m; path = KHDaySliderView/KHStretchView.m; sourceTree = "<group>"; };
+		D55D9E6A16CBA1AC0097C952 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A933B6815FF15C900DCC930 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A933B7015FF15C900DCC930 /* UIKit.framework in Frameworks */,
+				0A933B7215FF15C900DCC930 /* Foundation.framework in Frameworks */,
+				0A933B7415FF15CA00DCC930 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A933B6015FF15C900DCC930 = {
+			isa = PBXGroup;
+			children = (
+				D55D9E6A16CBA1AC0097C952 /* Default-568h@2x.png */,
+				0A933B7515FF15CA00DCC930 /* KHSlider */,
+				0A933B6E15FF15C900DCC930 /* Frameworks */,
+				0A933B6C15FF15C900DCC930 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0A933B6C15FF15C900DCC930 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A933B6B15FF15C900DCC930 /* KHSlider.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A933B6E15FF15C900DCC930 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A933B6F15FF15C900DCC930 /* UIKit.framework */,
+				0A933B7115FF15C900DCC930 /* Foundation.framework */,
+				0A933B7315FF15CA00DCC930 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0A933B7515FF15CA00DCC930 /* KHSlider */ = {
+			isa = PBXGroup;
+			children = (
+				0A933B8C15FF160000DCC930 /* Slider */,
+				0A933B8115FF15CA00DCC930 /* KHViewController.h */,
+				0A933B8215FF15CA00DCC930 /* KHViewController.m */,
+				0A933B8415FF15CA00DCC930 /* KHViewController.xib */,
+				0A933B7E15FF15CA00DCC930 /* KHAppDelegate.h */,
+				0A933B7F15FF15CA00DCC930 /* KHAppDelegate.m */,
+				0A933B7615FF15CA00DCC930 /* Supporting Files */,
+			);
+			path = KHSlider;
+			sourceTree = "<group>";
+		};
+		0A933B7615FF15CA00DCC930 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A933B7715FF15CA00DCC930 /* KHSlider-Info.plist */,
+				0A933B7815FF15CA00DCC930 /* InfoPlist.strings */,
+				0A933B7B15FF15CA00DCC930 /* main.m */,
+				0A933B7D15FF15CA00DCC930 /* KHSlider-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0A933B8C15FF160000DCC930 /* Slider */ = {
+			isa = PBXGroup;
+			children = (
+				0A933B8E15FF164900DCC930 /* class */,
+				0A933B8D15FF161800DCC930 /* image */,
+			);
+			name = Slider;
+			sourceTree = "<group>";
+		};
+		0A933B8D15FF161800DCC930 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				0A92C41E16009FD80030A6D9 /* sliderBack.png */,
+				0A92C3F9160074460030A6D9 /* sliderBase.png */,
+				0A92C3FA160074460030A6D9 /* sliderFill.png */,
+				0A92C3FE160074460030A6D9 /* sliderTime.png */,
+				0A92C3FB160074460030A6D9 /* sliderHint.png */,
+				0A92C3FC160074460030A6D9 /* sliderMark.png */,
+				0A92C3FD160074460030A6D9 /* sliderMarkHighlighted.png */,
+			);
+			name = image;
+			sourceTree = "<group>";
+		};
+		0A933B8E15FF164900DCC930 /* class */ = {
+			isa = PBXGroup;
+			children = (
+				0A92C3F7160074370030A6D9 /* KHDaySliderView.h */,
+				0A92C3F8160074370030A6D9 /* KHDaySliderView.m */,
+				0A92C41A16009F460030A6D9 /* KHDaySliderBar.h */,
+				0A92C41B16009F460030A6D9 /* KHDaySliderBar.m */,
+				0A956C131603134A00E81CCE /* KHStretchView.h */,
+				0A956C141603134A00E81CCE /* KHStretchView.m */,
+			);
+			name = class;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A933B6A15FF15C900DCC930 /* KHSlider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A933B8915FF15CA00DCC930 /* Build configuration list for PBXNativeTarget "KHSlider" */;
+			buildPhases = (
+				0A933B6715FF15C900DCC930 /* Sources */,
+				0A933B6815FF15C900DCC930 /* Frameworks */,
+				0A933B6915FF15C900DCC930 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KHSlider;
+			productName = KHSlider;
+			productReference = 0A933B6B15FF15C900DCC930 /* KHSlider.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A933B6215FF15C900DCC930 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KH;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = Redplanetsoft;
+			};
+			buildConfigurationList = 0A933B6515FF15C900DCC930 /* Build configuration list for PBXProject "KHSlider" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0A933B6015FF15C900DCC930;
+			productRefGroup = 0A933B6C15FF15C900DCC930 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A933B6A15FF15C900DCC930 /* KHSlider */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A933B6915FF15C900DCC930 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A933B7A15FF15CA00DCC930 /* InfoPlist.strings in Resources */,
+				0A933B8615FF15CA00DCC930 /* KHViewController.xib in Resources */,
+				0A92C3FF160074460030A6D9 /* sliderBase.png in Resources */,
+				0A92C400160074460030A6D9 /* sliderFill.png in Resources */,
+				0A92C401160074460030A6D9 /* sliderHint.png in Resources */,
+				0A92C402160074460030A6D9 /* sliderMark.png in Resources */,
+				0A92C403160074460030A6D9 /* sliderMarkHighlighted.png in Resources */,
+				0A92C404160074460030A6D9 /* sliderTime.png in Resources */,
+				0A92C41F16009FD80030A6D9 /* sliderBack.png in Resources */,
+				D55D9E6B16CBA1AC0097C952 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A933B6715FF15C900DCC930 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A933B7C15FF15CA00DCC930 /* main.m in Sources */,
+				0A933B8015FF15CA00DCC930 /* KHAppDelegate.m in Sources */,
+				0A933B8315FF15CA00DCC930 /* KHViewController.m in Sources */,
+				0A92C405160074690030A6D9 /* KHDaySliderView.m in Sources */,
+				0A92C41C16009F460030A6D9 /* KHDaySliderBar.m in Sources */,
+				0A956C151603134A00E81CCE /* KHStretchView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0A933B7815FF15CA00DCC930 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A933B7915FF15CA00DCC930 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0A933B8415FF15CA00DCC930 /* KHViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A933B8515FF15CA00DCC930 /* en */,
+			);
+			name = KHViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0A933B8715FF15CA00DCC930 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0A933B8815FF15CA00DCC930 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A933B8A15FF15CA00DCC930 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KHSlider/KHSlider-Prefix.pch";
+				INFOPLIST_FILE = "KHSlider/KHSlider-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0A933B8B15FF15CA00DCC930 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KHSlider/KHSlider-Prefix.pch";
+				INFOPLIST_FILE = "KHSlider/KHSlider-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A933B6515FF15C900DCC930 /* Build configuration list for PBXProject "KHSlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A933B8715FF15CA00DCC930 /* Debug */,
+				0A933B8815FF15CA00DCC930 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A933B8915FF15CA00DCC930 /* Build configuration list for PBXNativeTarget "KHSlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A933B8A15FF15CA00DCC930 /* Debug */,
+				0A933B8B15FF15CA00DCC930 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A933B6215FF15C900DCC930 /* Project object */;
+}

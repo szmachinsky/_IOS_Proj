@@ -1,0 +1,7 @@
+Past timeline color: 199 181 160
+Future timeline color: 85 156 184
+
+RED font color: 169 17 29	size : 25 px
+GREY font color: 94 91 87	size:  23 px
+тапбар, наверное, можно сделатьь стандартным способом, но я картинку приложила
+иконки в активном состоянии

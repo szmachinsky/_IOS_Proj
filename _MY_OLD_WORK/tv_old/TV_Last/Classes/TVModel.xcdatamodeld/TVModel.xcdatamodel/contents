@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="878" systemVersion="11E53" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="MTVChannel" representedClassName="MTVChannel" syncable="YES">
+        <attribute name="pCategories" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="pFavorite" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="pID" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="pImage" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="pLoaded" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="pLoadImage" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="pLoadShow" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="pLogoUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pLogoUrlLoaded" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pOrderValue" optional="YES" attributeType="Float" defaultValueString="0" syncable="YES"/>
+        <attribute name="pProgramUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pProgramUrlLoaded" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pSelected" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="pUpdated" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="tSectionIdentifier" optional="YES" transient="YES" attributeType="String" syncable="YES"/>
+        <relationship name="rTVShow" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="MTVShow" inverseName="rTVChannel" inverseEntity="MTVShow" syncable="YES"/>
+    </entity>
+    <entity name="MTVShow" representedClassName="MTVShow" syncable="YES">
+        <attribute name="pCategory" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="pDay" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="pDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pId" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="pStart" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="pStop" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="pTitle" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="rTVChannel" optional="YES" maxCount="1" deletionRule="No Action" destinationEntity="MTVChannel" inverseName="rTVShow" inverseEntity="MTVChannel" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="MTVChannel" positionX="160" positionY="192" width="128" height="300"/>
+        <element name="MTVShow" positionX="160" positionY="192" width="128" height="165"/>
+    </elements>
+</model>
