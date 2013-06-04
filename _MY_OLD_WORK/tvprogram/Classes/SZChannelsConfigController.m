@@ -574,7 +574,7 @@
 //        [res addObject:@"12"];
     }
 //    _NSLog(@"res=(%@)",res);    
-    return nil;//res;
+    return res;//nil;//res;
 }
 
 //----------------------
