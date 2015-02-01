@@ -10,7 +10,7 @@
 //NSString* const kUrlChannelListJson = @"http://tvprogram.selfip.info/data/index.json.bz2";
 
 
-//#define _DEBUG_MSG
+#define _DEBUG_MSG
 //#define _DEBUG_MSG0
 //#define _DEBUG_MSG1
 //#define _DEBUG_MSG2

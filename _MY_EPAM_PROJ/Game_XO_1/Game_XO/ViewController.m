@@ -63,14 +63,14 @@
     
 //  im= [[UIImage alloc] initWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"XO_78" ofType:@"png"]];
     
-    im= [[UIImage imageNamed:@"XO_78.png"] retain];
-    imH=[[UIImage imageNamed:@"XO_78.png"] retain];
-    imX=[[UIImage imageNamed:@"XO_78_X.png"] retain];
-    imO=[[UIImage imageNamed:@"XO_78_O.png"] retain];
+    im= [[UIImage imageNamed:@"XO_78.PNG"] retain];
+    imH=[[UIImage imageNamed:@"XO_78.PNG"] retain];
+    imX=[[UIImage imageNamed:@"XO_78_X.PNG"] retain];
+    imO=[[UIImage imageNamed:@"XO_78_O.PNG"] retain];
     
-    imG=[[UIImage imageNamed:@"XO_78_GRAY.png"] retain];
-    imD=[[UIImage imageNamed:@"XO_78_DARK.png"] retain];    
-    imD1=[[UIImage imageNamed:@"XO_78_DARK1.png"] retain];    
+    imG=[[UIImage imageNamed:@"XO_78_GRAY.PNG"] retain];
+    imD=[[UIImage imageNamed:@"XO_78_DARK.PNG"] retain];    
+    imD1=[[UIImage imageNamed:@"XO_78_DARK1.PNG"] retain];    
     
     
     arrImg=[[NSMutableArray alloc] initWithCapacity:12];
@@ -140,7 +140,8 @@
     
 	myView.tag=tg;
 //  UIColor *color=self.view.backgroundColor;
-    [myView setBackgroundColor:[UIColor redColor]];
+//  [myView setBackgroundColor:[UIColor redColor]];
+    [myView setBackgroundColor:[UIColor clearColor]];
     if (act) {
         myView.image=im;
         myView.highlightedImage=imH;           

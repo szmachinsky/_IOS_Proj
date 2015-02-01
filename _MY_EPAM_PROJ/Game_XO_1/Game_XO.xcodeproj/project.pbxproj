@@ -33,6 +33,8 @@
 		8CE8BEE21486814A00DCC80E /* XO_78_DARK.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 8CE8BEDF1486814A00DCC80E /* XO_78_DARK.PNG */; };
 		8CE8BEE31486814A00DCC80E /* XO_78_DARK1.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 8CE8BEE01486814A00DCC80E /* XO_78_DARK1.PNG */; };
 		8CE8BEE41486814A00DCC80E /* XO_78_GRAY.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 8CE8BEE11486814A00DCC80E /* XO_78_GRAY.PNG */; };
+		D5C219A418FDCA3E0028D46C /* Games-57.png in Resources */ = {isa = PBXBuildFile; fileRef = D5C219A318FDCA3E0028D46C /* Games-57.png */; };
+		D5C219A618FDCA4D0028D46C /* Games-114.png in Resources */ = {isa = PBXBuildFile; fileRef = D5C219A518FDCA4D0028D46C /* Games-114.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +70,8 @@
 		8CE8BEDF1486814A00DCC80E /* XO_78_DARK.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = XO_78_DARK.PNG; sourceTree = "<group>"; };
 		8CE8BEE01486814A00DCC80E /* XO_78_DARK1.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = XO_78_DARK1.PNG; sourceTree = "<group>"; };
 		8CE8BEE11486814A00DCC80E /* XO_78_GRAY.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = XO_78_GRAY.PNG; sourceTree = "<group>"; };
+		D5C219A318FDCA3E0028D46C /* Games-57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Games-57.png"; sourceTree = "<group>"; };
+		D5C219A518FDCA4D0028D46C /* Games-114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Games-114.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +91,8 @@
 		8C9504AD14803C8B00C2BBB1 = {
 			isa = PBXGroup;
 			children = (
+				D5C219A518FDCA4D0028D46C /* Games-114.png */,
+				D5C219A318FDCA3E0028D46C /* Games-57.png */,
 				8C9504C214803C8C00C2BBB1 /* Game_XO */,
 				8C9504BB14803C8C00C2BBB1 /* Frameworks */,
 				8C9504B914803C8C00C2BBB1 /* Products */,
@@ -239,6 +245,8 @@
 				8C9DE74514879F910006153D /* XO_Pic5.png in Resources */,
 				8C9DE7481487A1700006153D /* XO_Pic5b.png in Resources */,
 				8C9DE74A1487A1FD0006153D /* XO_Pic5bl.png in Resources */,
+				D5C219A418FDCA3E0028D46C /* Games-57.png in Resources */,
+				D5C219A618FDCA4D0028D46C /* Games-114.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,7 +291,8 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Sergei Zmachinsky (5AS546DVGY)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Sergei Zmachinsky (5AS546DVGY)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -298,6 +307,8 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PROVISIONING_PROFILE = "77B3AF01-274F-4981-B3A3-13170C9E51F4";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "77B3AF01-274F-4981-B3A3-13170C9E51F4";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -307,7 +318,8 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Sergei Zmachinsky (5AS546DVGY)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Sergei Zmachinsky (5AS546DVGY)";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
@@ -316,6 +328,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "77B3AF01-274F-4981-B3A3-13170C9E51F4";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "77B3AF01-274F-4981-B3A3-13170C9E51F4";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};

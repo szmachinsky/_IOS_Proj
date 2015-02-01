@@ -494,6 +494,8 @@ BOOL isSystemVersionMoreThen(CGFloat version) {
         [[TVDataSingelton sharedTVDataInstance] setCurrentDate:convertDataToString(now)];
     }
     
+    return; //ZS!!!!!
+    
     if ([controller ifDataShouldBeDownloaded] && ![self indexJsonDownloadingOrParsing]) 
     {
         _NSLog0(@"---DataShouldBeDownloaded : reload data for today---");
