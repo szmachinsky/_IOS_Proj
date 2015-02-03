@@ -36,10 +36,16 @@
 
 - (void)parseFile:(NSString*)file 
 {
-    NSString *filePath = [self pathInDocDir:@"index.json"];
+//    NSString *filePath = [self pathInDocDir:@"index.json"];
+    
+    NSString *rootPath = DOCUMENTS;
+    NSLog(@"ROOT_DIR=%@",rootPath);
+    NSString *filePath1 = [[NSBundle mainBundle] pathForResource:@"index.json" ofType:nil];
+    NSLog(@"FILE=%@",filePath1);
+    
      
     NSError *err;
-    NSData *dat = [[NSData alloc] initWithContentsOfFile:filePath];
+    NSData *dat = [[NSData alloc] initWithContentsOfFile:filePath1];
     NSDictionary *data = [NSJSONSerialization JSONObjectWithData:dat options:kNilOptions error:&err];        
     NSLog(@" parsed %d records",[data count]); 
 }

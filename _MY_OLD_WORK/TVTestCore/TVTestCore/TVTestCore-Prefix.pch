@@ -14,3 +14,6 @@
     #import <CoreData/CoreData.h>
     #import "AppInfo.h"
 #endif
+
+#define DOCUMENTS [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) lastObject]
+
