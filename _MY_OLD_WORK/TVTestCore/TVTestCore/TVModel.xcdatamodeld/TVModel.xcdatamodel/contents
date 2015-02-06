@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="878" systemVersion="11E53" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="6254" systemVersion="14C109" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
     <entity name="TVChannel" representedClassName="TVChannel" syncable="YES">
         <attribute name="bLoaded" optional="YES" attributeType="Boolean" syncable="YES"/>
         <attribute name="bSelected" optional="YES" attributeType="Boolean" syncable="YES"/>
@@ -19,7 +19,7 @@
         <relationship name="tvChannel" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="TVChannel" inverseName="tvShow" inverseEntity="TVChannel" syncable="YES"/>
     </entity>
     <elements>
-        <element name="TVChannel" positionX="160" positionY="192" width="128" height="165"/>
+        <element name="TVChannel" positionX="160" positionY="192" width="128" height="163"/>
         <element name="TVShow" positionX="160" positionY="192" width="128" height="135"/>
     </elements>
 </model>
