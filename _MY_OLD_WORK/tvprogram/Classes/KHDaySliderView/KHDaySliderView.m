@@ -124,18 +124,18 @@ const CGFloat KHDaySliderViewMarkOffsetY = -17.0;
         timeFrame.origin.x = roundf((CGRectGetWidth (self.frame) - CGRectGetWidth (timeFrame)) / 2);
         timeFrame.origin.y = roundf((CGRectGetHeight(self.frame) - CGRectGetHeight(timeFrame)) / 2);
         
-        CGRect baseFrame;
+        CGRect baseFrame = CGRectZero;
         baseFrame.size = baseImage.size;
         
-        CGRect fillFrame;
+        CGRect fillFrame = CGRectZero;
         fillFrame.size = fillImage.size;
         
-        CGRect markFrame;
+        CGRect markFrame = CGRectZero;
         markFrame.size = markImage.size;
         markFrame.origin.x = KHDaySliderViewMarkOffsetX + KHDaySliderViewTimeOffsetX;
         markFrame.origin.y = KHDaySliderViewMarkOffsetY;
         
-        CGRect hintFrame;
+        CGRect hintFrame = CGRectZero;
         hintFrame.size = hintImage.size;
         hintFrame.origin.x = roundf((CGRectGetWidth(markFrame) - CGRectGetWidth(hintFrame)) / 2) - 1;
         hintFrame.origin.y = 2 - CGRectGetHeight(hintFrame);

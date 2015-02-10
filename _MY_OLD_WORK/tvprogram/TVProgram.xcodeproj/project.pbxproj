@@ -81,7 +81,6 @@
 		845A32BC16085DE400C3032E /* ProgrammDataViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 845A32BB16085DE400C3032E /* ProgrammDataViewController.xib */; };
 		845A32BF1608855100C3032E /* arrow_gray.png in Resources */ = {isa = PBXBuildFile; fileRef = 845A32BE1608855100C3032E /* arrow_gray.png */; };
 		84762F0C15FF185D00971782 /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 84762EEE15FF185D00971782 /* arrow.png */; };
-		84762F0D15FF185D00971782 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 84762EEF15FF185D00971782 /* back.png */; };
 		84762F0E15FF185D00971782 /* back_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 84762EF015FF185D00971782 /* back_button.png */; };
 		84762F0F15FF185D00971782 /* t_categories.png in Resources */ = {isa = PBXBuildFile; fileRef = 84762EF115FF185D00971782 /* t_categories.png */; };
 		84762F1015FF185D00971782 /* ch_logo_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 84762EF215FF185D00971782 /* ch_logo_back.png */; };
@@ -315,6 +314,10 @@
 		8CF03D9914480ED000E088A4 /* DownloadChannelDataOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CF03D9814480ED000E088A4 /* DownloadChannelDataOperation.m */; };
 		98744D3C149769A1008F0B88 /* ShowDescriptionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 98744D3B149769A1008F0B88 /* ShowDescriptionCell.m */; };
 		98744D3E149769D2008F0B88 /* ShowDescriptionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98744D3D149769D2008F0B88 /* ShowDescriptionCell.xib */; };
+		D51C7B251A893EEB00392117 /* index.json in Resources */ = {isa = PBXBuildFile; fileRef = D51C7B221A893EEB00392117 /* index.json */; };
+		D51C7B261A893EEB00392117 /* tvdata.archive in Resources */ = {isa = PBXBuildFile; fileRef = D51C7B231A893EEB00392117 /* tvdata.archive */; };
+		D51C7B271A893EEB00392117 /* TVProgram.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = D51C7B241A893EEB00392117 /* TVProgram.sqlite */; };
+		D545DE861A89551900FEEF3C /* bback.png in Resources */ = {isa = PBXBuildFile; fileRef = D545DE851A89551900FEEF3C /* bback.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -433,7 +436,6 @@
 		845A32BB16085DE400C3032E /* ProgrammDataViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProgrammDataViewController.xib; sourceTree = "<group>"; };
 		845A32BE1608855100C3032E /* arrow_gray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow_gray.png; sourceTree = "<group>"; };
 		84762EEE15FF185D00971782 /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
-		84762EEF15FF185D00971782 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
 		84762EF015FF185D00971782 /* back_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back_button.png; sourceTree = "<group>"; };
 		84762EF115FF185D00971782 /* t_categories.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = t_categories.png; sourceTree = "<group>"; };
 		84762EF215FF185D00971782 /* ch_logo_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ch_logo_back.png; path = fave/ch_logo_back.png; sourceTree = "<group>"; };
@@ -713,6 +715,10 @@
 		98744D3A149769A1008F0B88 /* ShowDescriptionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowDescriptionCell.h; sourceTree = "<group>"; };
 		98744D3B149769A1008F0B88 /* ShowDescriptionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowDescriptionCell.m; sourceTree = "<group>"; };
 		98744D3D149769D2008F0B88 /* ShowDescriptionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShowDescriptionCell.xib; sourceTree = "<group>"; };
+		D51C7B221A893EEB00392117 /* index.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = index.json; sourceTree = "<group>"; };
+		D51C7B231A893EEB00392117 /* tvdata.archive */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = tvdata.archive; sourceTree = "<group>"; };
+		D51C7B241A893EEB00392117 /* TVProgram.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = TVProgram.sqlite; sourceTree = "<group>"; };
+		D545DE851A89551900FEEF3C /* bback.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bback.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1146,6 +1152,9 @@
 		84762EEB15FF17BC00971782 /* NewResources */ = {
 			isa = PBXGroup;
 			children = (
+				D51C7B221A893EEB00392117 /* index.json */,
+				D51C7B231A893EEB00392117 /* tvdata.archive */,
+				D51C7B241A893EEB00392117 /* TVProgram.sqlite */,
 				845A32BE1608855100C3032E /* arrow_gray.png */,
 				848373651607706600E1E308 /* title_channel_1.png */,
 				8483735E16076A0200E1E308 /* blue_1.png */,
@@ -1168,6 +1177,7 @@
 		84762EED15FF185D00971782 /* fave */ = {
 			isa = PBXGroup;
 			children = (
+				D545DE851A89551900FEEF3C /* bback.png */,
 				8489F8431603811B002C016F /* programm_2_2.png */,
 				8489F8441603811C002C016F /* programm_2_1.png */,
 				8489F8451603811D002C016F /* programm_2.png */,
@@ -1177,7 +1187,6 @@
 				84762F0015FF185D00971782 /* t_search.png */,
 				84762F0115FF185D00971782 /* t_settings.png */,
 				84762EEE15FF185D00971782 /* arrow.png */,
-				84762EEF15FF185D00971782 /* back.png */,
 				84762EF015FF185D00971782 /* back_button.png */,
 				84762EF815FF185D00971782 /* komments.txt */,
 				84762EF915FF185D00971782 /* line.png */,
@@ -1445,6 +1454,11 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0430;
+				TargetAttributes = {
+					1D6058900D05DD3D006BFB54 = {
+						DevelopmentTeam = XFKLL3K2Z3;
+					};
+				};
 			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "TVProgram" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -1506,6 +1520,7 @@
 				84C700B71557B2900028D567 /* orangeslide.png in Resources */,
 				84C700B81557B2900028D567 /* orangeslide@2x.png in Resources */,
 				84C700B91557B2900028D567 /* plashka_for_title.png in Resources */,
+				D51C7B251A893EEB00392117 /* index.json in Resources */,
 				84C700BA1557B2900028D567 /* realtime_button_on.png in Resources */,
 				84C700BB1557B2900028D567 /* realtime_button_on@2x.png in Resources */,
 				84C700BC1557B2900028D567 /* realtime_button.png in Resources */,
@@ -1608,13 +1623,14 @@
 				84878CB415DFA67A00E31CD6 /* ShowDescriptionWithNameCell.xib in Resources */,
 				842CB2D915E3BF3D00ABD90A /* 1.png in Resources */,
 				842CB2DA15E3BF3D00ABD90A /* 2.png in Resources */,
+				D51C7B271A893EEB00392117 /* TVProgram.sqlite in Resources */,
 				8C8AA7E515E578F5003D52A5 /* im_1.png in Resources */,
 				8C8AA7E615E578F5003D52A5 /* im_2.png in Resources */,
 				8C8AA7E715E578F5003D52A5 /* im_3.png in Resources */,
 				8C8AA7EB15E57B40003D52A5 /* im_4.png in Resources */,
 				8C8AA7EC15E57B40003D52A5 /* im_5.png in Resources */,
 				84762F0C15FF185D00971782 /* arrow.png in Resources */,
-				84762F0D15FF185D00971782 /* back.png in Resources */,
+				D545DE861A89551900FEEF3C /* bback.png in Resources */,
 				84762F0E15FF185D00971782 /* back_button.png in Resources */,
 				84762F0F15FF185D00971782 /* t_categories.png in Resources */,
 				84762F1015FF185D00971782 /* ch_logo_back.png in Resources */,
@@ -1627,6 +1643,7 @@
 				84762F1715FF185D00971782 /* line.png in Resources */,
 				84762F1815FF185D00971782 /* c_music_icon.png in Resources */,
 				84762F1915FF185D00971782 /* c_news_icon.png in Resources */,
+				D51C7B261A893EEB00392117 /* tvdata.archive in Resources */,
 				84762F1A15FF185D00971782 /* page.png in Resources */,
 				84762F1B15FF185D00971782 /* programm.png in Resources */,
 				84762F1C15FF185D00971782 /* programm_timeline.png in Resources */,
@@ -1791,8 +1808,8 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Sergei Zmachinsky (5AS546DVGY)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Sergei Zmachinsky (5AS546DVGY)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -1808,12 +1825,12 @@
 				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				"HEADER_SEARCH_PATHS[arch=*]" = /usr/include/libxml2;
 				INFOPLIST_FILE = "TVProgram-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "-lxml2";
 				PRODUCT_NAME = TVProgram;
-				PROVISIONING_PROFILE = "77B3AF01-274F-4981-B3A3-13170C9E51F4";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "77B3AF01-274F-4981-B3A3-13170C9E51F4";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "e3c8f75a-97b8-488a-85c2-37073a8c4116";
 				TARGETED_DEVICE_FAMILY = 1;
 				USER_HEADER_SEARCH_PATHS = "";
 				VALID_ARCHS = "armv6 armv7";
@@ -1827,8 +1844,8 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: PGP - Platinum Group Prague spol. s.r.o";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: PGP - Platinum Group Prague spol. s.r.o";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = TVProgram_Prefix.pch;
@@ -1842,12 +1859,11 @@
 				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				"HEADER_SEARCH_PATHS[arch=*]" = /usr/include/libxml2;
 				INFOPLIST_FILE = "TVProgram-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "-lxml2";
 				PRODUCT_NAME = TVProgram;
-				PROVISIONING_PROFILE = "5DAE14A6-60BF-4439-AF39-84F0A620ED6C";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "5DAE14A6-60BF-4439-AF39-84F0A620ED6C";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				USER_HEADER_SEARCH_PATHS = "";
 				VALIDATE_PRODUCT = YES;
@@ -1859,15 +1875,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CODE_SIGN_IDENTITY = "iPhone Distribution: PGP - Platinum Group Prague spol. s.r.o";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: PGP - Platinum Group Prague spol. s.r.o";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				PROVISIONING_PROFILE = "5DAE14A6-60BF-4439-AF39-84F0A620ED6C";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "5DAE14A6-60BF-4439-AF39-84F0A620ED6C";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				VALID_ARCHS = "i386 armv6 armv7";
 			};
@@ -1879,8 +1892,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: PGP - Platinum Group Prague spol. s.r.o";
-				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Distribution: PGP - Platinum Group Prague spol. s.r.o";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = TVProgram_Prefix.pch;
@@ -1894,12 +1906,11 @@
 				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				"HEADER_SEARCH_PATHS[arch=*]" = /usr/include/libxml2;
 				INFOPLIST_FILE = "TVProgram-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "-lxml2";
 				PRODUCT_NAME = TVProgram;
-				PROVISIONING_PROFILE = "5DAE14A6-60BF-4439-AF39-84F0A620ED6C";
-				"PROVISIONING_PROFILE[sdk=*]" = "5DAE14A6-60BF-4439-AF39-84F0A620ED6C";
+				PROVISIONING_PROFILE = "e3c8f75a-97b8-488a-85c2-37073a8c4116";
 				TARGETED_DEVICE_FAMILY = 1;
 				USER_HEADER_SEARCH_PATHS = "";
 				VALIDATE_PRODUCT = YES;
@@ -1911,14 +1922,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CODE_SIGN_IDENTITY = "iPhone Developer: Sergei Zmachinsky (5AS546DVGY)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Sergei Zmachinsky (5AS546DVGY)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
-				PROVISIONING_PROFILE = "77B3AF01-274F-4981-B3A3-13170C9E51F4";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "77B3AF01-274F-4981-B3A3-13170C9E51F4";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				VALID_ARCHS = "i386 armv6 armv7";
 			};
@@ -1928,15 +1938,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CODE_SIGN_IDENTITY = "iPhone Distribution: PGP - Platinum Group Prague spol. s.r.o";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: PGP - Platinum Group Prague spol. s.r.o";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				PROVISIONING_PROFILE = "5DAE14A6-60BF-4439-AF39-84F0A620ED6C";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "5DAE14A6-60BF-4439-AF39-84F0A620ED6C";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				VALID_ARCHS = "i386 armv6 armv7";
 			};

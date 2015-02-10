@@ -94,7 +94,7 @@
 -(void)dealloc
 {
     [self stopTimer]; 
-    dispatch_release(serialQueue_); 
+//    dispatch_release(serialQueue_);
 }
 
 //------------------------------------------------------------------

@@ -221,9 +221,15 @@ BOOL isSystemVersionMoreThen(CGFloat version) {
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions 
 {   
 //    uint64_t t1 = getTickCount();
+    NSLog(@"app_path=/%@/",NSHomeDirectory());
+    
+    [self copyResurce:@"index.json" toDir:@"Documents"];
+    [self copyResurce:@"tvdata.archive" toDir:@"Documents"];
+    [self copyResurce:@"TVProgram.sqlite" toDir:@"Documents"];
+    
     
     [window setBackgroundColor:[SZUtils color001]];
-    _NSLog(@"-----App_Load-Begin---");    
+    NSLog(@"-----App_Load-Begin---");    
 //zs---------    
     [[SZAppInfo shared] createCoreManagerWithDataFile:@"TVProgram.sqlite" Model:@"TVModel"]; //create Core Data controllers
 //    _NSLog(@"-----App_Load-1---");    
@@ -339,8 +345,42 @@ BOOL isSystemVersionMoreThen(CGFloat version) {
 //    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(stopUpdate:) name:@"UpdateComplete" object:nil];
     
 //    uint64_t t2 = getTickCount();
-//    _NSLog(@"-----App_Load-End------(%llu ms)-",(t2-t1));        
+//    _NSLog(@"-----App_Load-End------(%llu ms)-",(t2-t1));
+    
+//  [self copyResurce:@"blue_1.png" toDir:@"Documents"];
+    
+//    [self copyResurce:@"index.json" toDir:@"Documents"];
+//    [self copyResurce:@"tvdata.archive" toDir:@"Documents"];
+//    [self copyResurce:@"TVProgram.sqlite" toDir:@"Documents"];
+    NSLog(@"-----App_Load-End------");
     return YES;
+}
+
+#define DOCUMENTS [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) lastObject]
+-(void)copyResurce:(NSString*)resFile toDir:(NSString*)Dir
+{
+    NSString *filePathFfom = [[NSBundle mainBundle] pathForResource:[resFile stringByDeletingPathExtension] ofType:[resFile pathExtension]];
+    NSString *filePathTo;
+    filePathTo = [NSHomeDirectory() stringByAppendingPathComponent:Dir];
+    filePathTo = [filePathTo stringByAppendingPathComponent:resFile];
+    
+    NSFileManager *fileManager = [NSFileManager defaultManager];
+    // If the expected store doesn't exist, copy the default store.
+    if (![fileManager fileExistsAtPath:filePathTo])
+    {
+        NSError *error;
+        BOOL success = [fileManager copyItemAtPath:filePathFfom toPath:filePathTo error:&error];
+        NSLog(@"copy = /%@/ to /%@/",filePathFfom,filePathTo);
+        if (success)
+        {
+            NSLog(@"COPY OK");
+        } else {
+            NSLog(@"Failed to copy!!!");
+        }
+        
+    } else {
+        NSLog(@"OK-/%@/",filePathTo);
+    }
 }
 
 #pragma mark TabBar methods
@@ -480,6 +520,8 @@ BOOL isSystemVersionMoreThen(CGFloat version) {
 //--------------------------- applicationDidBecomeActive ----------------------------------------
 - (void)applicationDidBecomeActive:(UIApplication *)application 
 {
+    return; //zss
+    
 //    uint64_t t1 = getTickCount();
     _NSLog(@"--applicationDidBecomeActive STATE:%d", [TVDataSingelton sharedTVDataInstance].currentState);
  
