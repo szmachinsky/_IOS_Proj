@@ -360,15 +360,22 @@ BOOL isSystemVersionMoreThen(CGFloat version) {
 -(void)copyResurce:(NSString*)resFile toDir:(NSString*)Dir
 {
     NSString *filePathFfom = [[NSBundle mainBundle] pathForResource:[resFile stringByDeletingPathExtension] ofType:[resFile pathExtension]];
+    NSString *dirPathTo;
     NSString *filePathTo;
-    filePathTo = [NSHomeDirectory() stringByAppendingPathComponent:Dir];
-    filePathTo = [filePathTo stringByAppendingPathComponent:resFile];
+    dirPathTo = [NSHomeDirectory() stringByAppendingPathComponent:Dir];
+    filePathTo = [dirPathTo stringByAppendingPathComponent:resFile];
     
     NSFileManager *fileManager = [NSFileManager defaultManager];
     // If the expected store doesn't exist, copy the default store.
     if (![fileManager fileExistsAtPath:filePathTo])
     {
         NSError *error;
+        
+        [[NSFileManager defaultManager] createDirectoryAtPath:dirPathTo
+                                  withIntermediateDirectories:YES
+                                                   attributes:nil
+                                                        error:nil];
+        
         BOOL success = [fileManager copyItemAtPath:filePathFfom toPath:filePathTo error:&error];
         NSLog(@"copy = /%@/ to /%@/",filePathFfom,filePathTo);
         if (success)
